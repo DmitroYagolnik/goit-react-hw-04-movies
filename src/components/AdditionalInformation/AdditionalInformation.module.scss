@@ -1,0 +1,17 @@
+.InformationList {
+  margin: 25px;
+}
+
+.InformationItem {
+  margin: 25px;
+}
+
+.InformationItem > p {
+  margin: 15px 0;
+}
+
+.ProfilePhoto {
+  display: block;
+  object-fit: cover;
+  width: 100px;
+}

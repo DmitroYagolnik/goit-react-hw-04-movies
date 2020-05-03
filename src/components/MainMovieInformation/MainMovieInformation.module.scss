@@ -1,0 +1,37 @@
+.MainMovieInformationContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.PosterImage {
+  display: block;
+  width: 225px;
+  object-fit: cover;
+}
+
+.InformationTextWrapper {
+  margin-left: 25px;
+  width: calc(100% - 255px);
+}
+
+.MovieTitle {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.InformationText {
+  margin: 15px 0;
+}
+
+.GenresInformation {
+  composes: InformationText;
+}
+
+.GenresInformation > span {
+  margin: 0 10px;
+}
+
+.GenresInformation > span:first-child {
+  margin-left: 0;
+}
