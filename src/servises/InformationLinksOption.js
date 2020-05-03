@@ -6,12 +6,12 @@ const InformationLinksOption = movieId => {
   return [
     {
       title: 'Cast',
-      link: `goit-react-hw-04-movies/movies/${movieId}/cast`,
+      link: `/movies/${movieId}/cast`,
       id: Math.floor(Math.random() * 1000),
     },
     {
       title: 'Reviews',
-      link: `goit-react-hw-04-movies/movies/${movieId}/reviews`,
+      link: `/movies/${movieId}/reviews`,
       id: Math.floor(Math.random() * 1000),
     },
   ];
