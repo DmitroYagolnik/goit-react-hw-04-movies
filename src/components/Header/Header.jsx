@@ -8,12 +8,19 @@ const Header = () => {
       <nav className={style.nav}>
         <ul className={style.navList}>
           <li className={style.navItem}>
-            <NavLink exact to="/" className={style.navLink}>
+            <NavLink
+              exact
+              to="goit-react-hw-04-movies/"
+              className={style.navLink}
+            >
               Home
             </NavLink>
           </li>
           <li className={style.navItem}>
-            <NavLink to="/movies" className={style.navLink}>
+            <NavLink
+              to="goit-react-hw-04-movies/movies"
+              className={style.navLink}
+            >
               Mouvies
             </NavLink>
           </li>
