@@ -31,7 +31,7 @@
     "lint:fix": "eslint src/**/*.js --fix",
     "lint:format": "prettier src/**/*.{js,css,json} --write",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "netlify deploy -p",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "eslintConfig": {
@@ -61,6 +61,5 @@
     "prettier": "^1.19.1",
     "prop-types": "^15.7.2",
     "source-map-explorer": "^2.4.2"
-  },
-  "homepage": "https://dmitroyagolnik.github.io/goit-react-hw-04-movies/"
+  }
 }
