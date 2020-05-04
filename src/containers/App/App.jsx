@@ -1,5 +1,5 @@
 import React, { Component, lazy, Suspense } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 import routes from '../../servises/routes';
 import '../../index.css';
@@ -22,7 +22,7 @@ class App extends Component {
             <Route exact path={routes.HOME} component={Home} />
             <Route exact path={routes.MOVIES} component={Movies} />
             <Route path={routes.MOVIE_DETAILS} component={MovieDetails} />
-            <Route component={Home} />
+            <Redirect to="/" />
           </Switch>
         </Suspense>
       </>
