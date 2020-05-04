@@ -2,7 +2,7 @@
   Функція, яка повертає масив об'єктів-налаштувань 
   для веб-посилань
 */
-const InformationLinksOption = movieId => {
+const informationLinksOption = movieId => {
   return [
     {
       title: 'Cast',
@@ -17,4 +17,4 @@ const InformationLinksOption = movieId => {
   ];
 };
 
-export default InformationLinksOption;
+export default informationLinksOption;
