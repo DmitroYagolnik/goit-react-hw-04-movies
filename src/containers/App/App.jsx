@@ -22,7 +22,8 @@ class App extends Component {
             <Route exact path={routes.HOME} component={Home} />
             <Route exact path={routes.MOVIES} component={Movies} />
             <Route path={routes.MOVIE_DETAILS} component={MovieDetails} />
-            <Redirect to="/" />
+            {/* <Redirect to="/" /> */}
+            <Redirect to={routes.HOME} />
           </Switch>
         </Suspense>
       </>
